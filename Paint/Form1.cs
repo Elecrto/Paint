@@ -93,8 +93,9 @@ namespace Paint
             }
             else
             {
-                pen.Width = comboBox1.SelectedIndex;
+                pen.Width = comboBox1.SelectedIndex * 2;
             }
+            pen.Color = button7.BackColor;
         }
     }
 }
