@@ -97,5 +97,10 @@ namespace Paint
             }
             pen.Color = button7.BackColor;
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
