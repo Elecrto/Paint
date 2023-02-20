@@ -8,14 +8,7 @@ namespace Paint
 {
     internal class Points
     {
-        private int count = 3;
-        int qwe;
-        int asd;
-
-
-
-
-
+        private int count = 7;
         public int Count => count;
         private Point[] points;
         
