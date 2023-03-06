@@ -130,6 +130,11 @@ namespace Paint
             
         }
 
+        private void button12_Click(object sender, EventArgs e)
+        {
+            panel1.BackColor = pen.Color;
+        }
+
         private void button11_Click(object sender, EventArgs e)
         {
             mode = "react";
